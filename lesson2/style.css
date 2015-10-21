@@ -1,0 +1,48 @@
+body {
+	background: white;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.class {	
+	width: 500px;
+	height: 200px;
+	padding: 20px;
+	margin: 30px 30px 60px;
+	border: 5px solid red;
+	background: green;
+}
+
+#id {	
+	width: 500px;
+	height: 200px;
+	padding: 20px;
+	margin: 30px 30px 60px;
+	border: 5px solid red;
+	background: blue;
+}
+
+.btn-warning, .btn-error {
+	display: inline-block;
+	border-radius: 2px;
+	padding: 5px 10px;
+}
+
+.btn-warning {
+	background: yellow;
+}
+
+.btn-error {
+	background: red;
+}
+
+.btn.error {
+
+}
+
+.somestyle .someclass{
+	
+}
