@@ -16,7 +16,7 @@ body {
 .header {
 	width: 960px;
 	height: 120px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	background: DodgerBlue;
 }
 
@@ -81,10 +81,21 @@ body {
 	background: #FFFFC2;
 }
 
+.img {
+	width: 50px;
+	height: 50px;
+}
+
+.text {
+	padding: 10px;
+	text-align: right;
+}
+
 .footer {
 	height: 50px;
 	margin-top: 10px;
 	background: #C891C8;
+	text-align: right;
 }
 
 .fl {
