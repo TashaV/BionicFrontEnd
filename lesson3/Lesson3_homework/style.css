@@ -73,6 +73,7 @@ body {
 	width: 260px;
 	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
 	font-size: 13px;
+	color: #333333;
 }
 
 .content {
@@ -115,6 +116,7 @@ body {
 	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
 	font-weight: 100;
 	font-size: 13px;
+	color: #333333;
 }
 
 .fl {
