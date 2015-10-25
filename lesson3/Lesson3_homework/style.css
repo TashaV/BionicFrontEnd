@@ -10,7 +10,6 @@ body {
 	width: 960px;
 	margin: 20px auto;
 	margin-top: 30px; 
-	/*background: red;*/
 }
 
 .header {
@@ -43,17 +42,17 @@ body {
 	text-align: center;
 }
 
-.header .nav a {
-
-}
-
 .header .nav li:hover {
 	background: red;
 }
 
+.header .nav a {
+
+}
+
 .sidebar {
 	width: 320px;
-	height: 600px;
+	height: 900px;
 	background: LightPink;
 	float: right;
 }
@@ -63,32 +62,36 @@ body {
 	/*background: green;*/
 }
 
-.article1 {
+/*.article1 {
 	width: 620px;
 	margin-bottom: 10px;
 	background: #FFFFC2; 
-}
+}*/
 
-.article2 {
+.article {
 	width: 620px;
-	margin-bottom: 10px;
+	margin: 0px 20px 10px 0px;
 	background: #FFFFC2;
+	float: right;
 }
 
-.article3 {
+/*.article3 {
 	width: 620px;
 	margin-bottom: 10px; 
 	background: #FFFFC2;
-}
+}*/
 
 .img {
-	width: 50px;
-	height: 50px;
+	width: 120px;
+	height: 120px;
+	margin: 20px;
 }
 
 .text {
-	padding: 10px;
-	text-align: right;
+	/*padding: 20px;*/
+	width: 460px;
+	float: right;
+
 }
 
 .footer {
