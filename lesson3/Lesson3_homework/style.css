@@ -4,6 +4,7 @@
 
 body {
 	margin: 0;
+	background: #F2F2F2;
 }
 
 .wrap {
@@ -16,7 +17,7 @@ body {
 	width: 960px;
 	height: 120px;
 	margin-bottom: 20px;
-	background: DodgerBlue;
+	background: #03A9F4;
 }
 
 .logo {
@@ -38,7 +39,7 @@ body {
 	width: 160px;
 	margin: 5px;
 	display: inline-block;
-	background: gray;
+	background: #666666;
 	text-align: center;
 }
 
@@ -47,58 +48,73 @@ body {
 }
 
 .header .nav a {
-
+	display: block;
 }
 
 .sidebar {
 	width: 320px;
 	height: 900px;
-	background: LightPink;
+	background: #F4BFBF;
 	float: right;
+}
+
+.sidebar-img {
+	width: 260px; 
+	height: 100px;
+	margin: 20px 30px 0px 30px;
+}
+
+.sidebar .menu {
+	list-style-type: square;
+
+}
+
+.sidebar .menu li {
+	width: 260px;
+	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
+	font-size: 13px;
 }
 
 .content {
 	margin-right: 20px;
-	/*background: green;*/
 }
-
-/*.article1 {
-	width: 620px;
-	margin-bottom: 10px;
-	background: #FFFFC2; 
-}*/
 
 .article {
 	width: 620px;
 	margin: 0px 20px 10px 0px;
-	background: #FFFFC2;
-	float: right;
+	background: #FFFFCC;
 }
-
-/*.article3 {
-	width: 620px;
-	margin-bottom: 10px; 
-	background: #FFFFC2;
-}*/
 
 .img {
 	width: 120px;
 	height: 120px;
-	margin: 20px;
+	margin: 20px 0px 10px 30px;
 }
 
 .text {
-	/*padding: 20px;*/
-	width: 460px;
-	float: right;
+	width: 455px;
+	padding: 0px 20px 10px 0px;
+	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
+	font-weight: 100;
+	color: #525B5D;
+}
 
+.text h1 {
+	font-weight: 100;
 }
 
 .footer {
 	height: 50px;
 	margin-top: 10px;
-	background: #C891C8;
+	background: #CC99CC;
 	text-align: right;
+}
+
+.f-text {
+	padding: 18px;
+	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
+	font-weight: 100;
+	font-size: 13px;
 }
 
 .fl {
