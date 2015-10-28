@@ -59,19 +59,15 @@ body {
 	float: right;
 }
 
-.sidebar-img {
+.sidebar_img {
 	width: 260px; 
 	height: 100px;
 	margin: 20px 30px 0px 30px;
 }
 
-.sidebar .menu {
-	list-style-type: square;
-
-}
-
-.sidebar .menu li {
+.sidebar li {
 	width: 260px;
+	list-style-type: square;
 	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
 	font-size: 13px;
 	color: #333333;
@@ -79,11 +75,12 @@ body {
 
 .content {
 	margin-right: 20px;
+	padding: 0px 10px 10px 0px; 
 }
 
 .article {
 	width: 620px;
-	margin: 0px 20px 10px 0px;
+	margin-bottom: 20px;
 	padding: 20px 10px 10px 25px;
 	background: #FFFFCC;
 }
@@ -99,7 +96,7 @@ body {
 	color: #525B5D;
 }
 
-.img {
+.content_img {
 	width: 120px;
 	height: 120px;
 	margin: 0px 10px 10px 0px;
@@ -112,7 +109,7 @@ body {
 	text-align: right;
 }
 
-.f-text {
+.footer_text {
 	padding: 18px;
 	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
 	font-weight: 100;
