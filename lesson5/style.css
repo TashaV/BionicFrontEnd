@@ -80,22 +80,13 @@ body {
 .article {
 	width: 620px;
 	margin-bottom: 20px;
-	padding: 20px 10px 10px 25px;
+	padding: 20px 10px 10px 140px;
 	background: #FFFFCC;
 }
 
-/*.content .article h1 {
-	width: 455px;
-	margin: 0px 0px 0px 145px;
-	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
-	font-weight: 100;
-	color: #525B5D;
-}*/
-
 .content .article h1, .content .article p {
 	width: 455px;
-	margin: 0px 0px 0px 145px;
-	padding: 0px 10px 10px 0px; 
+	margin: 0px 10px 10px 10px; 
 	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
 	font-weight: 100;
 	color: #525B5D;
@@ -107,6 +98,14 @@ body {
 	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
 	font-weight: 100;
 	color: #525B5D;
+}
+
+
+.content_img1 {
+	width: 120px;
+	height: 120px;
+	margin-left: -130px;
+	float: left;
 }
 
 .content_img {
