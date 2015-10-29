@@ -14,28 +14,20 @@ body {
 	height: 65px;
 	padding: 14px 0px 14px 210px;
 	background: white;
-	/*width: 960px;
-	height: 120px;
 	margin-bottom: 20px;
-	background: #03A9F4;*/
 }
 
 .logo {
-
     width: 32px;
     height: 32px;
     margin: auto;
     display: block;
     background: url(img/sprite.png) left top;
-    /*margin: 10px 100px 10px 30px;
-    border-radius: 50px;
-    background: url(img/logo.png) no-repeat;*/
     float:left;
 }
 
 .logo i {
 	width: 135px;
-	/*margin-left: 42px;*/
 	margin: 0px 0px 0px 42px;
 	font-size: 18px;
 	font-weight: 500;
@@ -63,11 +55,8 @@ body {
 }
 
 .header .nav li {	
-	/*width: 100px;*/
 	margin-left: 30px;
 	display: inline-block;
-	
-	/*background: #666666;*/
 	text-align: right;
 }
 
@@ -81,8 +70,22 @@ body {
 	font-variant: small-caps;
 	font-weight: 600;
 	color: #434a54;
+}
 
-	/*display: block;*/
+.search {
+	margin-top: -25px;
+	/*margin-left: 760px; */
+	padding-right: 200px;
+	float: right;
+	/*display: inline-block;*/
+}
+
+.search_image {
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: red;
+	/*background: url(img/sprite.png) -40px top;*/
 }
 
 .wrap {
@@ -93,8 +96,8 @@ body {
 }
 
 .slider {
-	width: 940px;
 	height: 320px;
+	border-radius: 5px;
 	background: #ff6d55;
 }
 
