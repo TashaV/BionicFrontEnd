@@ -101,6 +101,7 @@ body {
 
 .content {
 	padding-top: 20px; 
+	color: #434a54;
 }
 
 .plan {
@@ -134,9 +135,47 @@ body {
 }
 
 .content h1 {
-	font-size: 25px;
+	margin-bottom: 0px;
+	font-size: 30px;
 	font-weight: 500;
-	color: #434a54;
+	
+	/*display: inline;*/
+}
+
+.content h4 {
+	margin-top: 0px;
+	font-variant: small-caps;
+	font-weight: 400;
+}
+
+.content .starter h4 {
+	color: #fc6e51;
+}
+
+.content .basic h4 {
+	color: #a0d468;
+}
+
+.content .pro h4 {
+	color: #4fc1e9;
+}
+
+.content .ultra h4 {
+	color: #ad92ec;
+}
+
+.content p {
+	font-size: 15px;
+}
+
+.content h6 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #aab2bd;
+}
+
+.basic h6, .pro h6 {
+	margin-bottom: 15px; 
 }
 
 .content a {
@@ -154,9 +193,9 @@ body {
 	display: inline-block;
 }
 
-.content .starter:hover  {
+/*.content .starter:hover  {
 	background: #fc6e51 20px 20px;
-}
+}*/
 
 /*.content .starter a:hover {
 	background: #fc6e51;
