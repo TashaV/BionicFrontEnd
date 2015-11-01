@@ -107,7 +107,7 @@ body {
 .plan {
 	width: 220px;
 	height: 350px;
-	padding: 10px 10px 10px 20px; 
+	padding: 30px 10px 10px 20px; 
 	border-radius: 5px;
 	background: white;
 }
@@ -135,11 +135,9 @@ body {
 }
 
 .content h1 {
-	margin-bottom: 0px;
+	margin: 0px;
 	font-size: 30px;
 	font-weight: 500;
-	
-	/*display: inline;*/
 }
 
 .content h4 {
@@ -193,13 +191,71 @@ body {
 	display: inline-block;
 }
 
-/*.content .starter:hover  {
-	background: #fc6e51 20px 20px;
-}*/
+.starter:hover {
+	padding: 25px 10px 10px 20px;
+	border-top: 5px solid #fc6e51;
+}
 
-/*.content .starter a:hover {
-	background: #fc6e51;
-}*/
+.starter:hover a {
+	background: #fc6e51; 
+}
+
+.basic:hover {
+	padding: 25px 10px 10px 20px;
+	border-top: 5px solid #a0d468;
+}
+
+.basic:hover a {
+	background: #a0d468;
+}
+
+.pro:hover {
+	padding: 25px 10px 10px 20px;
+	border-top: 5px solid #4fc1e9;
+}
+
+.pro:hover a {
+	background: #4fc1e9;
+}
+
+.ultra:hover {
+	padding: 25px 10px 10px 20px;
+	border-top: 5px solid #ad92ec;
+}
+
+.ultra:hover a {
+	background: #ad92ec;
+}
+
+.advertising {
+	width: 300px;
+	height: 350px;
+	/*margin-right: 10px;*/
+	padding: 170px 20px 20px;
+	border-radius: 5px;
+	background: white;
+}
+
+.advertising h1 {
+	font-size: 18px;
+}
+
+.advertising p {
+	height: 50px;
+	font-size: 13px;
+}
+
+.middle_position {
+	margin-top:-350px;
+	margin-left: 320px;
+}
+
+.right_position {
+	margin-top:-350px;
+	margin-left: 640px;
+}
+
+
 
 .sidebar {
 	/*width: 320px;
@@ -256,18 +312,24 @@ body {
 	margin: 0px 10px 10px 0px;*/
 }
 
+
+
+
+
 .footer {
-	height: 50px;
+	height: 70px;
 	background: #e6e9ed; 
 	/*height: 50px;
 	margin-top: 10px;
-	background: #CC99CC;
-	text-align: right;*/
+	background: #CC99CC;*/
+	text-align: right;
 }
 
 .footer_text {
-	/*padding: 18px;
-	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
+	padding: 30px;
+	font-size: 13px; 
+	color: #aab2bd;
+	/*font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
 	font-weight: 100;
 	font-size: 13px;
 	color: #333333;*/
