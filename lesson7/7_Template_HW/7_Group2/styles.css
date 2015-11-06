@@ -394,15 +394,15 @@ button {
 }
 
 .team .post {
-	  margin-top: 0px;
-	  font-size: 14px;
+    margin-top: 0px;
+	font-size: 14px;
     color: #adadad;
     text-align: left;
 }
 
 .team h4 {
     margin-bottom: 15px;
-	  font-size: 18px;
+	font-size: 18px;
     color: rgb( 66, 184, 221 );
     font-weight: bold;
     text-transform: uppercase;
