@@ -1,0 +1,30 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+}
+
+#remember:checked + button {
+    background: red;
+}
+
+#remember:checked ~ button {
+    margin-left: 50px;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.content {
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#tab-1:checked ~ .for-tab-1,
+#tab-2:checked ~ .for-tab-2,
+#tab-3:checked ~ .for-tab-3 {
+    display: block;
+}
