@@ -4,13 +4,13 @@
 }
 
 * {
-	  box-sizing:border-box;
+	box-sizing:border-box;
 }
 
 body{
-	  font-family: "Proxima Nova Lt", Corbel, Calibri;
-	  margin:0;
-	  background: #F0F2F5;
+	font-family: "Proxima Nova Lt", Corbel, Calibri;
+	margin:0;
+	background: #F0F2F5;
 }
 
 .wrap{
@@ -20,79 +20,79 @@ body{
 
 /*Лена*/
 .header {
-	  background: black;
-	  height: 76px;
+	background: black;
+	height: 76px;
 }
 
 .logo {
-	  text-decoration: none;
-	  text-transform: uppercase;
-	  font-size: 30px;
-	  font-weight: bold;
-	  color: white;
-	  margin:20px 120px 20px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	margin:20px 120px 20px 0;
 }
 	
 .menu {
-	  font-size: 16px;
-	  margin: 0;
+	font-size: 16px;
+	margin: 0;
 }
 
 .menu li {
-	  display: inline; 
+	display: inline; 
 }
 
 .menu a {
-	  display: inline-block;
-	  background: transparent;
-	  padding: 10px;
-	  margin: 20px 5px;
-	  color: white;
-	  text-decoration: none;
-	  border-radius: 5px;
+	display: inline-block;
+	background: transparent;
+	padding: 10px;
+	margin: 20px 5px;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
 }
 
 .menu li a:hover {
-	  color: #42B8DD;
+	color: #42B8DD;
 }
 
 .butt {
-	  height: 30px;
-	  width: 90px;
-	  background: black;
-	  color: #42B8DD;
-	  border: #42B8DD solid 2px;
-	  border-radius: 5px;
-	  text-decoration: none;
-	  font-size: 16px;
-	  padding: 3px 14px;
-	  margin: 20px 0;
-	  text-align: center;
+	height: 30px;
+	width: 90px;
+	background: black;
+	color: #42B8DD;
+	border: #42B8DD solid 2px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 3px 14px;
+	margin: 20px 0;
+	text-align: center;
 }
 
 .butt:hover {
-	  box-shadow: 0 0 20px white;
-	  font-weight: bold;
+	box-shadow: 0 0 20px white;
+	font-weight: bold;
 }
 
 .content {
-	  margin: auto;
-	  height: 820px;
-	  height: 100vh;
-	  background-image: url(img/img1.jpg);
+	margin: auto;
+	height: 820px;
+	height: 100vh;
+	background-image: url(img/img1.jpg);
 }
 
 .fl {
-	  float: left;
+	float: left;
 }
 
 .fr {
-	  float: right;
+	float: right;
 }
 
 /*Катя*/
 button {
-	  cursor: pointer;
+	cursor: pointer;
 }
 
 .services {
