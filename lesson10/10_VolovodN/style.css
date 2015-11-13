@@ -1,0 +1,305 @@
+@font-face {
+    font-family: Myriad Pro;
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(fonts/Open Sans.ttf);
+}
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+	width: 320px;
+	margin: 0;
+	font-family: arial,helvetica,sans-serif;
+	background: #f0f2f5;
+}
+
+header {
+	height: 70px;
+	border-bottom: 2px solid #e2e4e7;
+	background: white;
+	position: relative;
+}
+
+.logo {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 60px;
+	float: left;
+}
+
+.logo::before {
+	content: "";
+    width: 48px;
+    height: 48px;
+    background: url(img/sprite.png) left -39px;
+    float:left;
+}
+
+.title {
+	width: 70px;
+	margin-top: 2px;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: oblique;
+	color: #8cc152;
+	text-align: center;
+	display: inline-block;
+}
+
+header input[type="checkbox"] {
+    display: none;
+}
+
+header label {
+	width: 48px;
+	height: 48px;
+	margin: 10px 7px 0px 8px;
+	border: 1px solid #aab2bd;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+header .search_box {
+	background: url(img/Sprite.png) -35px 10px;
+}
+
+header .nav_box {
+	background: url(img/Sprite.png) -142px 14px;
+}
+
+#search_checkbox:checked ~ .search,
+#nav_checkbox:checked ~ .nav {
+	display: block;
+}
+
+.search {
+	width: 100%;
+	height: 100px;
+	background: white;
+	display: none;
+	position: absolute;
+	top:70px;
+}
+
+.nav {
+	width: 100%;
+	height: 100px;
+	background: white;
+	display: none;
+	position: absolute;
+	top: 70px;
+}
+
+*:focus {
+	outline: none;
+}
+
+.slider {
+	height: 128px;
+	margin: 25px 8px 25px;
+	border-radius: 5px;
+	background: #ff6d55;
+}
+
+section {
+	width: 145px;
+	height: 162px;
+	margin: 0px 10px 12px;
+	padding-top: 16px;
+	border-top: 3px solid white;
+	border-radius: 5px;
+	color: #656d78;
+	background: white;
+}
+
+.starter {
+	float: left;
+}
+
+.basic {
+	margin-left: 165px
+}
+
+.pro {
+	float: left;
+}
+
+.ultra {
+	margin-left: 165px;
+}
+
+section h1 {
+	margin: 0px 0px 0px 16px;
+	font-family: "Myriad Pro",arial,helvetica,sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	color: #434a52;
+}
+
+section h2 {
+	margin-top: 5px;
+	margin-left: 16px; 
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.starter h2 {
+	color: #fc6e51;
+}
+
+.basic h2 {
+	color: #a0d468;
+}
+
+.pro h2 {
+	color: #4fc1e9;
+}
+
+.ultra h2 {
+	color: #ad92ec;
+}
+
+section p {
+	height: 35px;
+	margin: 5px 0px 3px 16px; 
+	font-size: 12px;
+	font-weight: normal;
+	color: #aab2bd;
+}
+
+section a {
+	width: 100%;
+	height: 40px;
+	padding-top: 10px; 
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-variant: small-caps;
+	color: white;
+	border-radius: 0px 0px 5px 5px;
+	background: #aab2bd;
+	display: inline-block;
+}
+
+.starter:hover {
+	border-top: 3px solid #fc6e51;
+}
+
+.starter:hover a {
+	background: #fc6e51; 
+}
+
+.basic:hover {
+	border-top: 3px solid #a0d468;
+}
+
+.basic:hover a {
+	background: #a0d468;
+}
+
+.pro:hover {
+	border-top: 3px solid #4fc1e9;
+}
+
+.pro:hover a {
+	background: #4fc1e9;
+}
+
+.ultra:hover {
+	border-top: 3px solid #ad92ec;
+}
+
+.ultra:hover a {
+	background: #ad92ec;
+}
+
+article {
+	width: 304px;
+	margin: 68px 8px 30px;
+	padding-bottom: 28px;
+	border-radius: 5px;
+	color: #656d78;
+	position: relative;
+	background: white;
+}
+
+article img {
+	width: 80px;
+	height: 80px;	
+	margin: 0px 0px 35px;
+	border-radius: 50%;
+	position: absolute;
+	top: -40px;
+	left: 112px;
+	background: #aab2bd;
+}
+
+article h1 {
+	margin: 50px 0px 0px 76px;
+	font-family: "Open Sans",arial,helvetica,sans-serif;
+	font-size: 18px;
+}
+
+article p {
+	margin-top: 12px;
+	margin-left: 16px;
+	font-family: "Myriad Pro",arial,helvetica,sans-serif;
+	font-size: 13px;
+	color: #aab2bd;
+}
+
+article .clock {
+	margin-top: 12px;
+	margin-left: 193px;
+	font-size: 11px;
+	color: #aab2bd;
+	display: inline-block;
+}
+
+article .clock::before {
+	content: "";
+	width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    float: left;
+    background: url(img/sprite.png) -85px top;
+}
+
+article .comment {
+	width: 35px;
+	margin: -26px 0px 0px 256px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #aab2bd;
+	display: block;
+}
+
+article .comment::before {
+	content: "";
+	width: 20px;
+    height: 20px;
+    float: left;
+    background: url(img/sprite.png) -120px top;
+}
+
+footer {
+	height: 70px;
+	background: #e6e9ed; 
+	text-align: right;
+}
+
+footer p {
+	padding: 30px 0px;
+	font-size: 13px; 
+	color: #aab2bd;
+}
+
+.shadow {
+	box-shadow: 0px 2px #e2e4e7;
+}
