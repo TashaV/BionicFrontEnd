@@ -240,16 +240,9 @@ article div {
 	background: #aab2bd;
 }
 
-article img {
-	background-size: cover;
-	/*width: 80px;
-	height: 80px;	
-	margin: 0px 0px 35px;
-	border-radius: 50%;
-	position: absolute;
-	top: -40px;
-	left: 112px;
-	background: #aab2bd;*/
+article div img {
+	max-width: 100%;
+	/*max-height: auto;*/
 }
 
 article h1 {
