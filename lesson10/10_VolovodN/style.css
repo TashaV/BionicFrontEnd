@@ -109,10 +109,9 @@ header .nav_box {
 
 section {
 	width: 145px;
-	height: 162px;
 	margin: 0px 10px 12px;
 	padding-top: 16px;
-	border-top: 3px solid white;
+	border-top: 5px solid white;
 	border-radius: 5px;
 	color: #656d78;
 	background: white;
@@ -188,7 +187,7 @@ section a {
 }
 
 .starter:hover {
-	border-top: 3px solid #fc6e51;
+	border-top: 5px solid #fc6e51;
 }
 
 .starter:hover a {
@@ -196,7 +195,7 @@ section a {
 }
 
 .basic:hover {
-	border-top: 3px solid #a0d468;
+	border-top: 5px solid #a0d468;
 }
 
 .basic:hover a {
@@ -204,7 +203,7 @@ section a {
 }
 
 .pro:hover {
-	border-top: 3px solid #4fc1e9;
+	border-top: 5px solid #4fc1e9;
 }
 
 .pro:hover a {
@@ -212,7 +211,7 @@ section a {
 }
 
 .ultra:hover {
-	border-top: 3px solid #ad92ec;
+	border-top: 5px solid #ad92ec;
 }
 
 .ultra:hover a {
@@ -229,7 +228,7 @@ article {
 	background: white;
 }
 
-article img {
+article div {
 	width: 80px;
 	height: 80px;	
 	margin: 0px 0px 35px;
@@ -237,7 +236,20 @@ article img {
 	position: absolute;
 	top: -40px;
 	left: 112px;
+	overflow: hidden;
 	background: #aab2bd;
+}
+
+article img {
+	background-size: cover;
+	/*width: 80px;
+	height: 80px;	
+	margin: 0px 0px 35px;
+	border-radius: 50%;
+	position: absolute;
+	top: -40px;
+	left: 112px;
+	background: #aab2bd;*/
 }
 
 article h1 {
