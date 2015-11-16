@@ -101,7 +101,7 @@ header .nav_box {
 	content: ''; 
     position: absolute;
     top: -32px;
-    left: 204px;  
+    left: 194px;  
     border: 16px solid transparent; 
     border-bottom: 16px solid #8cc152;
 }
@@ -138,7 +138,7 @@ header .nav_box {
 	content: ''; 
     position: absolute;
     top: -32px;
-    left: 272px;  
+    left: 254px;  
     border: 16px solid transparent; 
     border-bottom: 16px solid white;
 }
@@ -351,7 +351,7 @@ article .clock::before {
 
 article .comment {
 	width: 35px;
-	margin: -26px 0px 0px 256px;
+	margin: -16px 0px 0px 256px;
 	text-decoration: none;
 	font-size: 11px;
 	color: #aab2bd;
@@ -391,6 +391,7 @@ footer p {
 	.wrap {
 		width: 960px;
 		margin: auto;
+		position: relative;
 	}
 
 	header {
@@ -436,9 +437,7 @@ footer p {
 		background: transparent;
 		box-shadow: none;
 		border: none;
-		position: absolute;
-		left: 388px;
-		top: 0;
+		position: inherit;
 	}
 
 	header .nav_box:hover {
