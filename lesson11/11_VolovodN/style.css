@@ -327,7 +327,6 @@ article h1 {
 
 article p {
 	margin: 12px 8px 0px 16px;
-	/*margin-left: 16px;*/
 	font-family: "Myriad Pro",arial,helvetica,sans-serif;
 	font-size: 13px;
 	color: #aab2bd;
@@ -398,6 +397,7 @@ footer p {
 		height: 65px;
 		padding: 14px 0px 14px 0px;
 		background: white;
+		/*margin-bottom: 20px;*/
 	}
 
 	.logo {
