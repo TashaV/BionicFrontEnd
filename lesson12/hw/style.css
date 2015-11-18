@@ -1,0 +1,20 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+}
+
+.wrap {
+	width: 960px;
+}
+
+aside {
+	width: 310px;
+	margin: 10px 5px 8px 10px;
+	background: green;
+}
+
+aside .search {
+	
+}
