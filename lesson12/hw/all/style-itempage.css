@@ -1,0 +1,239 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(img/body-bg.png);
+	font-family: 'myriad pro', arial, tahoma, verdana;
+}
+
+.laptop-info {
+	width: 50%;
+	border: 2px solid #cccccc;
+	border-radius: 3px;
+	margin: 0;
+	margin: auto;
+}
+
+.name {
+	text-align: center;
+	border-bottom: 2px solid #cccccc;
+}
+
+.photo, .description, .specifications {
+	width: 100%;
+	line-height: 2em;
+	border-bottom: 2px solid #cccccc;
+	background: linear-gradient(to top, #f7941d, white 90%);
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+	display: inline-block;
+}
+
+ul{
+	display: none;
+}
+
+.specifications:hover ul {
+	width: 80%;
+	margin-left: 3%;
+	text-transform: none;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1;
+	background: beige;
+	display: inline-block;
+}
+
+p{
+	display: none;
+}
+
+.description:hover p {
+	text-transform: none;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1;
+	background: beige;
+	display: inline-block;
+}
+
+img {
+	display: none;
+}
+
+.photo:hover img {
+	margin: auto;
+	display: inline-block;
+	width: 100%;
+}
+
+.add-button {
+	width: 100%;
+	margin-top: 0;
+	line-height: 1.75em;
+	padding: 0 5% 0 5%;
+	background: linear-gradient(to bottom, #333333, black 97%);
+	color: white;
+	font-size: 0.75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 3px;
+	display: inline-block;
+	
+}
+
+.add-button:hover {
+	background: red;
+}
+
+@media screen and (min-width: 720px){
+
+.laptop-info {
+	width: 50%;
+	border: 2px solid #cccccc;
+	border-radius: 3px;
+	margin: 0;
+	margin: auto;
+}
+
+.name {
+	text-align: center;
+	border-bottom: 2px solid #cccccc;
+}
+
+.photo {
+	width: 50%;
+	float: left;
+	display: block;
+	color: transparent;
+}
+
+.description, .specifications {
+	width: 50%;
+	line-height: 2em;
+	font-size: 0.7em;
+	border: 2px solid #cccccc;
+	background: linear-gradient(to top, #f7941d, white 90%);
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+	display: inline-block;
+	float: right;
+}
+
+.specifications {
+	position: relative;
+	bottom: -50%;
+}
+
+ul{
+	display: none;
+}
+
+.specifications:hover ul {
+	width: 80%;
+	margin-left: 3%;
+	text-transform: none;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1;
+	background: beige;
+	display: inline-block;
+}
+
+p {
+	text-indent: 1em;
+	text-transform: none;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1;
+	background: beige;
+	display: inline-block;
+}
+
+img {
+	margin: auto;
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 960px){
+.laptop-info {
+	width: 100%;
+	border: 2px solid #cccccc;
+	border-radius: 3px;
+	margin: 0;
+	margin: auto;
+	float:right;
+}
+
+.name {
+	text-align: center;
+	border-bottom: 2px solid #cccccc;
+}
+
+.photo {
+	width: 50%;
+	float: left;
+	display: block;
+	color: transparent;
+}
+.description {
+	padding: 0.5%;
+}
+.description, .specifications {
+	width: 50%;
+	line-height: 2em;
+	font-size: 0.7em;
+	border: 2px solid #cccccc;
+	background: linear-gradient(to top, #f7941d, white 90%);
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+	display: inline-block;
+	float: right;
+}
+
+.specifications {
+	position: relative;
+	bottom: -50%;
+}
+
+ul {
+	width: 80%;
+	margin-left: 3%;
+	text-transform: none;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1;
+	background: beige;
+	display: inline-block;
+}
+
+p {
+	text-indent: 1em;
+	text-transform: none;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1;
+	background: beige;
+	display: inline-block;
+}
+
+img {
+	margin: auto;
+	width: 100%;
+	display: inline-block;
+}
+
+}

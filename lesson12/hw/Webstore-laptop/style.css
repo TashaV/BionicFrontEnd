@@ -1,0 +1,257 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(img/body-bg.png);
+	font-family: myriad pro, arial, tahoma, verdana;
+}
+
+.slider {
+	background: linear-gradient(to bottom, #333333, black 90%);
+	border: 5px solid black;
+	height: 18em;
+
+}
+
+.laptop {
+	margin-left: 5%;
+	margin-top: 5%;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #ffa83c;
+	text-shadow: 0 2px 1px black;
+}
+
+.laptop-description {
+	display: none;
+}
+
+.laptop-front {
+	margin-left: 5%;
+	margin-top: 2%;
+	
+	
+}
+
+.ad-price {
+	margin-left: 5%;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #f7951e;
+	display: inline-block;
+	float: left;
+	
+}
+
+.addon {
+	margin: 0;
+	width: 38%;
+	padding: 0;
+	color: white;
+	font-size: 0.88em;
+	color: #f7951e;
+	float: right;
+	display: inline-block;
+}
+
+.slider-button {
+	margin: 0;
+	margin-right: 20%;
+	line-height: 1.75em;
+	padding: 0 5% 0 5%;
+	background: linear-gradient(to bottom, #333333, black 97%);
+	color: white;
+	font-size: 0.75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 3px;
+	float: right;
+	
+}
+
+.slider-button:hover {
+	background: #f7951e;
+}
+
+@media screen and (min-width: 720px){
+	* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	background: linear-gradient(to bottom, #333333, black 90%);
+	border: 5px solid black;
+	height: 18em;
+	
+}
+
+.laptop {
+	margin-left: 5%;
+	margin-top: 5%;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #ffa83c;
+	text-shadow: 0 2px 1px black;
+}
+
+.laptop-description {
+	margin: 1% 0 0 5%;
+	font-size: 0.66em;
+	color: #ffa83c;
+	display: block;
+}
+
+.laptop-front {
+	margin-left: 5%;
+	margin-top: 2%;
+	float: left;
+	
+	
+}
+
+.ad-price {
+	position: relative;
+	height: 43%;
+	width: 43%;
+	padding: 1.72em 0 0 0.46em;
+	top: -2%;
+	left: 10%;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #f7951e;
+	background: url(img/sprite.png) -290px 0 no-repeat;
+	display: inline-block;
+	float: left;
+	
+}
+
+.addon {
+	margin: 0;
+	width: 38%;
+	padding: 0;
+	color: white;
+	font-size: 0.88em;
+	color: #f7951e;
+	float: right;
+	display: inline-block;
+}
+
+.slider-button {
+	margin: 0;
+	margin-right: 20%;
+	line-height: 1.75em;
+	padding: 0 5% 0 5%;
+	background: linear-gradient(to bottom, #333333, black 97%);
+	color: white;
+	font-size: 0.75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 3px;
+	float: right;
+	
+}
+
+.slider-button:hover {
+	background: #f7951e;
+}
+}
+
+@media screen and (min-width: 960px){
+	* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	width: 620px;
+	height: 349px;
+	background: linear-gradient(to bottom, #333333, black 90%);
+	border: 5px solid black;
+	float: right;
+}
+
+.laptop {
+	position: relative;
+	top: -5%;
+	left: 5%;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #ffa83c;
+	text-shadow: 0 2px 1px black;
+}
+
+.laptop-description {
+	margin: -1% 0 5% 10%;
+	font-size: 12px;
+	color: #ffa83c;
+}
+
+.laptop-front {
+	margin-left: 10px;
+	width: 200px;
+	height: 179px;
+	
+}
+
+.ad-price {
+	position: relative;
+	top: -5%;
+	left: -5%;
+	z-index: 2;
+	height: 152px;
+	width: 150px;
+	margin-left: 48px;
+	margin-bottom: 38px;
+	padding: 49px 0 0 10px;
+	background: url(img/sprite.png) -290px 0 no-repeat;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #f7951e;
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+		
+}
+
+.addon {
+	position: relative;
+	z-index: 1;
+	margin-top: -25%;
+	margin-right: 6%;
+	width: 258px;
+	height: 60px;
+	padding: 13px 9px 12px 76px;
+	background: #f7951e;
+	border-radius: 3px;
+	color: white;
+	font-size: 14px;
+
+}
+
+.slider-button {
+	position: relative;
+	right: -15%;
+	bottom: 5%;
+	line-height: 28px;
+	padding: 0 10px 0 10px;
+	background: linear-gradient(to bottom, #333333, black 97%);
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	border-radius: 3px;
+	display: inline-block;
+	
+}
+
+.slider-button:hover {
+	background: #f7951e;
+}
+
+}
