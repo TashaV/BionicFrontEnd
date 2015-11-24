@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f0f2f5;
+	margin: 0;
+	font-family: "proxima-nova-1","proxima-nova-2",arial,helvetica,sans-serif;
+}
+
+/*******************MEDIA 720**********************/
+@media screen and (min-width: 720px) {
+
+}
+/*******************END MEDIA 720*****************/
+
+/*******************MEDIA 960**********************/
+@media screen and (min-width: 960px) {
+
+}
+/*******************END MEDIA 960*****************/
