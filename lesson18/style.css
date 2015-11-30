@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+}
+
+.block {
+	width: 200px;
+	height: 200px;
+	background: green;
+	float: left;
+	margin: 10px;
+}
+
+.blue {
+	background: blue;
+}
+
+.tab {
+	padding: 0 10px;
+	/*margin: 10px;*/
+}
