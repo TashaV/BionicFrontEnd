@@ -638,8 +638,11 @@ header ul, footer ul {
 
 .our_clients .client {
 	width: 45%;
-	height: 100px;
+	height: 110px;
 	margin: 2%;
+	line-height: 96px;
+ 	text-align: center;
+	text-decoration: none;
 	border: 2px solid transparent;
 	position: relative;
 	display: inline-block;
@@ -649,18 +652,10 @@ header ul, footer ul {
 	border: 2px solid #dddddd;
 }
 
-.our_clients .client a {
-	text-decoration: none;
-}
-
 .our_clients .client img {
 	max-width: 100%;
 	height: 100%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -10.7vh;
-	margin-left: -18.5vw;
+	vertical-align: middle;
 }
 
 .our_clients .client span {
@@ -673,6 +668,7 @@ header ul, footer ul {
 	font-weight: 400;
 	text-transform: capitalize;
 	color: white;
+	line-height: 16px;
 	border-radius: 5px;
 	background: #333333;
 	display: inline-block;
@@ -1443,7 +1439,7 @@ footer .social .rss:hover {
 		background: #88d082;
 		display: inline-block;
 	}
-	}
+	
 
 	.testimonials h1 {
 		margin-bottom: 0;
@@ -1484,6 +1480,7 @@ footer .social .rss:hover {
 
 	.our_clients .client {
 		width: 15%;
+		height: 110px;
 	}
 
 	.our_clients .client img {
