@@ -1,0 +1,12 @@
+﻿body background: #3f808a
+logo background: #7d3f26  rgba(125, 63, 38, 0.9)
+nav/search icon background: #b1b0ad  rgba(177,176,173,0.9)
+nav/search icon hover background: #fcf082  rgba(252,240,130, 0.9)
+nav background: #f2f2f2  
+logo font color: white
+icon font color: #202020
+icon hover font color: #0d3a82
+
+articles a font color : #364145
+articles a hover font color : #4C81A9
+
