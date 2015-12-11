@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+}
+
+.block {
+	width: 200px;
+	height: 200px;
+	background: green;
+	float: left;
+	margin: 10px;
+}
+
+.blue {
+	background: blue;
+}
+
+.tab {
+	padding: 0 10px;
+	/*margin: 10px;*/
+}
+
+.slider {
+	position: relative;
+}
+
+.slider::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.next, .prev {
+	position: absolute;
+	top: 200px;
+	padding: 10px;
+	background: purple;
+	cursor: pointer;
+}
+
+.prev {
+	left: 0;
+}
+
+.next {
+	right: 0;
+}
